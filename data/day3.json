@@ -1,0 +1,11 @@
+{
+  "day": 3,
+  "title": "Exploring Inner Strength",
+  "video": "assets/media/day3-video.mp4",
+  "audio": "assets/media/day3-audio.mp3",
+  "miniTask": {
+    "description": "Reflect on a time when you felt strong and capable. Write down the details of that experience.",
+    "instructions": "Take 10 minutes to write in your journal about this experience. Focus on the emotions you felt and the actions you took."
+  },
+  "reflectionPrompt": "How can you draw on this experience of strength in your daily life? What steps can you take to cultivate this inner strength moving forward?"
+}

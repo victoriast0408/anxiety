@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center content inside sections */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+    text-align: center; /* Center labels */
+}
+
+input, textarea {
+    width: 80%; /* Center inputs with reduced width */
+    margin: 0 auto 1rem auto; /* Center with margins */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block; /* Ensure block-level alignment */
+    resize: none; /* Disable resizing */
+}
+
+textarea {
+    height: auto; /* Allow height to be set by rows attribute */
+}
+
+select {
+    width: 80%; /* Match the width of input fields */
+    margin: 0 auto 1rem auto; /* Center with margins */
+    padding: 0.5rem; /* Adjust padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Match font size */
+    display: block; /* Ensure block-level alignment */
+}
+
+button {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0.3rem 0.8rem; /* Adjust padding */
+    font-size: 1rem;
+    border-radius: 5px;
+    display: inline-block; /* Fit button width to text */
+    margin: 0.5rem auto; /* Center buttons */
+}
+
+button:hover {
+    background-image: linear-gradient(-20deg, #21d4fd 0%, #b721ff 100%);
+}
+
+/* Smaller button for adding media links */
+button#add-media-link {
+    width: auto; /* Adjust width to fit content */
+    padding: 0.3rem 0.6rem; /* Smaller padding */
+    font-size: 0.9rem; /* Smaller font size */
+    display: inline-block; /* Inline-block for better alignment */
+    margin-bottom: 0.5rem; /* Add spacing below */
+}
+
+button.hide-block {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem auto;
+}
+
+button.hide-block:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+section.blurred {
+    filter: blur(5px); /* Apply blur effect */
+    pointer-events: none; /* Disable interactions */
+    opacity: 0.6; /* Reduce opacity */
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    input, textarea, button {
+        font-size: 0.9rem;
+    }
+}
